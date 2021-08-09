@@ -17,12 +17,12 @@ function snapCrackle(maxValue) {
         {
             text += ", "
         }
-
+        
     }
-    console.log(text)
+    return text
 
 }
-console.log(snapCrackle(15));
+console.log(snapCrackle());
 
 function PrimeNumbers(limit) {
 
@@ -34,7 +34,6 @@ function PrimeNumbers(limit) {
     }
     return true
 }
-console.log(PrimeNumbers())
 
 
 //Snap, Prime, SnapPrime, 4, SnapCracklePrime, 6, SnapPrime, 8, Snap, Crackle, SnapPrime, 12, SnapPrime, 14, SnapCrackle
@@ -63,6 +62,6 @@ function snapCracklePrime(maxValue) {
 
 
     }
-    console.log(text)
+    return text
 }
-console.log(snapCracklePrime(15));
+console.log(snapCracklePrime());
